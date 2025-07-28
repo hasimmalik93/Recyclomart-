@@ -1,0 +1,2762 @@
+{
+    "log": {
+        "version": "1.1",
+        "creator": {
+            "name": "WebPagetest",
+            "version": "21.07"
+        },
+        "browser": {
+            "name": "Chrome",
+            "version": "136.0.0.0"
+        },
+        "pages": [
+            {
+                "startedDateTime": "2025-07-28T14:47:56.137+00:00",
+                "title": "Run 1, First View for https://recyclomart.vercel.app",
+                "id": "page_1_0_1",
+                "testID": "250728_YiDcGY_72P",
+                "pageTimings": {
+                    "onLoad": 266,
+                    "onContentLoad": -1,
+                    "_startRender": 0
+                },
+                "_bwDown": 5000,
+                "_loadTime": 266,
+                "_docTime": 266,
+                "_fullyLoaded": 266,
+                "_bytesOut": 2140,
+                "_bytesOutDoc": 2140,
+                "_bytesIn": 1611,
+                "_bytesInDoc": 1611,
+                "_requests": 1,
+                "_requestsFull": 1,
+                "_requestsDoc": 1,
+                "_responses_200": 0,
+                "_responses_404": 1,
+                "_responses_other": 0,
+                "_result": 404,
+                "_testStartOffset": 0,
+                "_cached": 0,
+                "_optimization_checked": 1,
+                "_main_frame": "2A4533F17E387B7CC187E2FCA05BD4AE",
+                "_loadEventStart": 266,
+                "_loadEventEnd": 266,
+                "_domContentLoadedEventStart": 105,
+                "_domContentLoadedEventEnd": 105,
+                "_URL": "https://recyclomart.vercel.app",
+                "_connections": 1,
+                "_domInteractive": 105,
+                "_renderBlockingCSS": 0,
+                "_renderBlockingJS": 0,
+                "_score_cache": -1,
+                "_score_cdn": 100,
+                "_score_gzip": -1,
+                "_score_cookies": -1,
+                "_score_keep-alive": -1,
+                "_score_minify": -1,
+                "_score_combine": -1,
+                "_score_compress": -1,
+                "_score_etags": -1,
+                "_score_progressive_jpeg": -1,
+                "_gzip_total": 0,
+                "_gzip_savings": 0,
+                "_minify_total": -1,
+                "_minify_savings": -1,
+                "_image_total": 0,
+                "_image_savings": 0,
+                "_base_page_cdn": "",
+                "_cpuTimes": {
+                    "PrePaint": 0,
+                    "Paint": 0,
+                    "Layerize": 0,
+                    "FireAnimationFrame": 0,
+                    "FunctionCall": 1,
+                    "EventDispatch": 0,
+                    "Idle": 265
+                },
+                "_cpuTimesDoc": {
+                    "PrePaint": 0,
+                    "Paint": 0,
+                    "Layerize": 0,
+                    "FireAnimationFrame": 0,
+                    "FunctionCall": 1,
+                    "EventDispatch": 0,
+                    "Idle": 265
+                },
+                "_cpu.PrePaint": 0,
+                "_cpu.Paint": 0,
+                "_cpu.Layerize": 0,
+                "_cpu.FireAnimationFrame": 0,
+                "_cpu.FunctionCall": 1,
+                "_cpu.EventDispatch": 0,
+                "_cpu.Idle": 265,
+                "_v8Stats": {
+                    "main_thread": [],
+                    "background": []
+                },
+                "_tester": "ip-172-31-21-152-10.10.1.142",
+                "_start_epoch": 1753714074.1492288,
+                "_osVersion": "Linux 6.8.0-1032-aws",
+                "_os_version": "Linux 6.8.0-1032-aws",
+                "_osPlatform": "x86_64 x86_64",
+                "_date": 1753714076.1374538,
+                "_browserVersion": "136.0.0.0",
+                "_browser_version": "136.0.0.0",
+                "_fullyLoadedCPUms": 260,
+                "_fullyLoadedCPUpct": 24.528301886999671,
+                "_audit_issues": [
+                    {
+                        "code": "QuirksModeIssue",
+                        "details": {
+                            "quirksModeIssueDetails": {
+                                "isLimitedQuirksMode": false,
+                                "documentNodeId": 2,
+                                "url": "http://127.0.0.1:8888/orange.html",
+                                "frameId": "2A4533F17E387B7CC187E2FCA05BD4AE",
+                                "loaderId": "D06A7D0CA7CFAE178FB65AA238AB0347"
+                            }
+                        }
+                    }
+                ],
+                "_execution_contexts": [
+                    {
+                        "id": 2,
+                        "origin": "http://127.0.0.1:8888",
+                        "name": ""
+                    },
+                    {
+                        "id": 1,
+                        "origin": "https://recyclomart.vercel.app",
+                        "name": ""
+                    }
+                ],
+                "_origin_dns": {
+                    "cname": [],
+                    "ns": [],
+                    "mx": [],
+                    "txt": [],
+                    "soa": [],
+                    "https": [],
+                    "svcb": []
+                },
+                "_detected": {
+                    "PaaS": "Vercel",
+                    "Security": "HSTS"
+                },
+                "_detected_apps": {
+                    "Vercel": "",
+                    "HSTS": ""
+                },
+                "_detected_technologies": {
+                    "Vercel": {
+                        "name": "Vercel",
+                        "description": "Vercel is a cloud platform for static frontends and serverless functions.",
+                        "slug": "vercel",
+                        "categories": [
+                            {
+                                "id": 62,
+                                "slug": "paas",
+                                "groups": [
+                                    7
+                                ],
+                                "name": "PaaS",
+                                "priority": 8
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "vercel.svg",
+                        "website": "https://vercel.com",
+                        "pricing": [
+                            "freemium",
+                            "low",
+                            "recurring",
+                            "poa"
+                        ],
+                        "cpe": null
+                    },
+                    "HSTS": {
+                        "name": "HSTS",
+                        "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+                        "slug": "hsts",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "slug": "security",
+                                "groups": [
+                                    11
+                                ],
+                                "name": "Security",
+                                "priority": 9
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "default.svg",
+                        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+                        "pricing": [],
+                        "cpe": null
+                    }
+                },
+                "_detected_raw": [
+                    {
+                        "name": "Vercel",
+                        "description": "Vercel is a cloud platform for static frontends and serverless functions.",
+                        "slug": "vercel",
+                        "categories": [
+                            {
+                                "id": 62,
+                                "slug": "paas",
+                                "groups": [
+                                    7
+                                ],
+                                "name": "PaaS",
+                                "priority": 8
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "vercel.svg",
+                        "website": "https://vercel.com",
+                        "pricing": [
+                            "freemium",
+                            "low",
+                            "recurring",
+                            "poa"
+                        ],
+                        "cpe": null
+                    },
+                    {
+                        "name": "HSTS",
+                        "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+                        "slug": "hsts",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "slug": "security",
+                                "groups": [
+                                    11
+                                ],
+                                "name": "Security",
+                                "priority": 9
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "default.svg",
+                        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+                        "pricing": [],
+                        "cpe": null
+                    }
+                ],
+                "_axe": {
+                    "testEngine": "4.10.2",
+                    "violations": [],
+                    "passes": [
+                        {
+                            "id": "aria-hidden-body",
+                            "impact": null,
+                            "tags": [
+                                "cat.aria",
+                                "wcag2a",
+                                "wcag131",
+                                "wcag412",
+                                "EN-301-549",
+                                "EN-9.1.3.1",
+                                "EN-9.4.1.2"
+                            ],
+                            "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+                            "help": "aria-hidden=\"true\" must not be present on the document body",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "aria-hidden-body",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "critical",
+                                            "message": "No aria-hidden attribute is present on document body"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<body>",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bypass",
+                            "impact": null,
+                            "tags": [
+                                "cat.keyboard",
+                                "wcag2a",
+                                "wcag241",
+                                "section508",
+                                "section508.22.o",
+                                "TTv5",
+                                "TT9.a",
+                                "EN-301-549",
+                                "EN-9.2.4.1"
+                            ],
+                            "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+                            "help": "Page must have means to bypass repeated blocks",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "landmark",
+                                            "data": null,
+                                            "relatedNodes": [
+                                                {
+                                                    "html": "<main>",
+                                                    "target": [
+                                                        "main"
+                                                    ]
+                                                }
+                                            ],
+                                            "impact": "serious",
+                                            "message": "Page has a landmark region"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "color-contrast",
+                            "impact": null,
+                            "tags": [
+                                "cat.color",
+                                "wcag2aa",
+                                "wcag143",
+                                "TTv5",
+                                "TT13.c",
+                                "EN-301-549",
+                                "EN-9.1.4.3",
+                                "ACT"
+                            ],
+                            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "help": "Elements must meet minimum color contrast ratio thresholds",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"error-code\"><strong>404</strong>: NOT_FOUND</span>",
+                                    "target": [
+                                        ".error-code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "bold",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<strong>404</strong>",
+                                    "target": [
+                                        "strong"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#333333",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 12.630000000000001,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 12.63"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"devinfo-line\">Code: <code>DEPLOYMENT_NOT_FOUND</code></span>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "11.0pt (14.72px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<code>DEPLOYMENT_NOT_FOUND</code>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(2) > code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#333333",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 12.630000000000001,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 12.63"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"devinfo-line\">ID: <code>kix1::kfcqz-1753714076384-63f58d7d3288</code></span>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "11.0pt (14.72px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<code>kix1::kfcqz-1753714076384-63f58d7d3288</code>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(3) > code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#0070f3",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 4.5499999999999998,
+                                                "fontSize": "10.5pt (14px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 4.55"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<div class=\"note\">This deployment cannot be found. For more information and troubleshooting, see our documentation.</div>",
+                                    "target": [
+                                        ".note"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "document-title",
+                            "impact": null,
+                            "tags": [
+                                "cat.text-alternatives",
+                                "wcag2a",
+                                "wcag242",
+                                "TTv5",
+                                "TT12.a",
+                                "EN-301-549",
+                                "EN-9.2.4.2",
+                                "ACT"
+                            ],
+                            "description": "Ensure each HTML document contains a non-empty <title> element",
+                            "help": "Documents must have <title> element to aid in navigation",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "doc-has-title",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Document has a non-empty <title> element"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "html-has-lang",
+                            "impact": null,
+                            "tags": [
+                                "cat.language",
+                                "wcag2a",
+                                "wcag311",
+                                "TTv5",
+                                "TT11.a",
+                                "EN-301-549",
+                                "EN-9.3.1.1",
+                                "ACT"
+                            ],
+                            "description": "Ensure every HTML document has a lang attribute",
+                            "help": "<html> element must have a lang attribute",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "has-lang",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "The <html> element has a lang attribute"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "html-lang-valid",
+                            "impact": null,
+                            "tags": [
+                                "cat.language",
+                                "wcag2a",
+                                "wcag311",
+                                "TTv5",
+                                "TT11.a",
+                                "EN-301-549",
+                                "EN-9.3.1.1",
+                                "ACT"
+                            ],
+                            "description": "Ensure the lang attribute of the <html> element has a valid value",
+                            "help": "<html> element must have a valid value for the lang attribute",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [],
+                                    "all": [],
+                                    "none": [
+                                        {
+                                            "id": "valid-lang",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Value of lang attribute is included in the list of valid languages"
+                                        }
+                                    ],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "link-name",
+                            "impact": null,
+                            "tags": [
+                                "cat.name-role-value",
+                                "wcag2a",
+                                "wcag244",
+                                "wcag412",
+                                "section508",
+                                "section508.22.a",
+                                "TTv5",
+                                "TT6.a",
+                                "EN-301-549",
+                                "EN-9.2.4.4",
+                                "EN-9.4.1.2",
+                                "ACT"
+                            ],
+                            "description": "Ensure links have discernible text",
+                            "help": "Links must have discernible text",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "has-visible-text",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has text that is visible to screen readers"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [
+                                        {
+                                            "id": "focusable-no-name",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element is not in tab order or has accessible text"
+                                        }
+                                    ],
+                                    "impact": null,
+                                    "html": "<a href=\"https://vercel.com/docs/errors/platform-error-codes#deployment_not_found\" class=\"owner-error\"><div class=\"note\">This deployment cannot be found. For more information and troubleshooting, see our documentation.</div></a>",
+                                    "target": [
+                                        "a"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "meta-viewport",
+                            "impact": null,
+                            "tags": [
+                                "cat.sensory-and-visual-cues",
+                                "wcag2aa",
+                                "wcag144",
+                                "EN-301-549",
+                                "EN-9.1.4.4",
+                                "ACT"
+                            ],
+                            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+                            "help": "Zooming and scaling must not be disabled",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "meta-viewport",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "critical",
+                                            "message": "<meta> tag does not disable zooming on mobile devices"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+                                    "target": [
+                                        "meta[name=\"viewport\"]"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "incomplete": []
+                },
+                "_base_page_ip_ptr": "",
+                "_base_page_cname": "",
+                "_base_page_dns_server": "",
+                "_browser_name": "Chrome",
+                "_eventName": "Step_1",
+                "_test_run_time_ms": 1560,
+                "_testUrl": "https://recyclomart.vercel.app",
+                "_custom": [
+                    "Colordepth",
+                    "Dpi",
+                    "Images",
+                    "Resolution",
+                    "fonts",
+                    "generated-content-percent",
+                    "generated-content-size",
+                    "imgs-in-viewport",
+                    "imgs-no-alt",
+                    "imgs-out-viewport",
+                    "jsLibsVulns",
+                    "meta-viewport",
+                    "possibly-render-blocking-reqs",
+                    "rendered-html",
+                    "securityHeaders"
+                ],
+                "_Colordepth": null,
+                "_Dpi": null,
+                "_Images": null,
+                "_Resolution": null,
+                "_fonts": null,
+                "_generated-content-percent": null,
+                "_generated-content-size": null,
+                "_imgs-in-viewport": null,
+                "_imgs-no-alt": null,
+                "_imgs-out-viewport": null,
+                "_jsLibsVulns": null,
+                "_meta-viewport": null,
+                "_possibly-render-blocking-reqs": null,
+                "_rendered-html": null,
+                "_securityHeaders": null,
+                "_interactivePeriods": [
+                    [
+                        0,
+                        262
+                    ]
+                ],
+                "_lastVisualChange": 0,
+                "_visualComplete85": 0,
+                "_visualComplete90": 0,
+                "_visualComplete95": 0,
+                "_visualComplete99": 0,
+                "_visualComplete": 0,
+                "_SpeedIndex": 0,
+                "_chromeUserTiming": [
+                    {
+                        "name": "navigationStart",
+                        "time": 74
+                    },
+                    {
+                        "name": "fetchStart",
+                        "time": 81
+                    },
+                    {
+                        "name": "navigationStart",
+                        "time": 103
+                    },
+                    {
+                        "name": "domLoading",
+                        "time": 104
+                    },
+                    {
+                        "name": "responseEnd",
+                        "time": 104
+                    },
+                    {
+                        "name": "domInteractive",
+                        "time": 104
+                    },
+                    {
+                        "name": "domContentLoadedEventStart",
+                        "time": 104
+                    },
+                    {
+                        "name": "domContentLoadedEventEnd",
+                        "time": 104
+                    },
+                    {
+                        "name": "domComplete",
+                        "time": 104
+                    },
+                    {
+                        "name": "unloadEventStart",
+                        "time": 249
+                    },
+                    {
+                        "name": "unloadEventEnd",
+                        "time": 249
+                    },
+                    {
+                        "name": "markAsMainFrame",
+                        "time": 249
+                    },
+                    {
+                        "name": "commitNavigationEnd",
+                        "time": 249
+                    },
+                    {
+                        "name": "domLoading",
+                        "time": 250
+                    },
+                    {
+                        "name": "TotalLayoutShift",
+                        "value": 0
+                    },
+                    {
+                        "name": "CumulativeLayoutShift",
+                        "value": 0
+                    }
+                ],
+                "_chromeUserTiming.navigationStart": 104,
+                "_chromeUserTiming.fetchStart": 82,
+                "_chromeUserTiming.domLoading": 250,
+                "_chromeUserTiming.responseEnd": 104,
+                "_chromeUserTiming.domInteractive": 105,
+                "_chromeUserTiming.domContentLoadedEventStart": 105,
+                "_chromeUserTiming.domContentLoadedEventEnd": 105,
+                "_chromeUserTiming.domComplete": 105,
+                "_chromeUserTiming.unloadEventStart": 249,
+                "_chromeUserTiming.unloadEventEnd": 249,
+                "_chromeUserTiming.markAsMainFrame": 250,
+                "_chromeUserTiming.commitNavigationEnd": 250,
+                "_chromeUserTiming.TotalLayoutShift": 0,
+                "_chromeUserTiming.CumulativeLayoutShift": 0,
+                "_blinkFeatureFirstUsed": {
+                    "Features": {
+                        "5285": {
+                            "name": "V8Window_Location_AttributeSetter",
+                            "firstUsed": 73.433000000000007
+                        },
+                        "5284": {
+                            "name": "V8Window_Location_AttributeGetter",
+                            "firstUsed": 73.438000000000002
+                        },
+                        "2627": {
+                            "name": "PageLifeCycleFreeze",
+                            "firstUsed": 254.18199999999999
+                        },
+                        "1441": {
+                            "name": "SecureContextCheckPassed",
+                            "firstUsed": 254.822
+                        },
+                        "1910": {
+                            "name": "CrossOriginMainFrameNulledNameAccessed",
+                            "firstUsed": 254.83099999999999
+                        },
+                        "2188": {
+                            "name": "PerformanceObserverForWindow",
+                            "firstUsed": 260.34800000000001
+                        },
+                        "2927": {
+                            "name": "LargestContentfulPaintExplicitlyRequested",
+                            "firstUsed": 260.37200000000001
+                        },
+                        "3004": {
+                            "name": "PerformanceObserverBufferedFlag",
+                            "firstUsed": 260.375
+                        },
+                        "2782": {
+                            "name": "LayoutShiftExplicitlyRequested",
+                            "firstUsed": 260.38400000000001
+                        }
+                    },
+                    "CSSFeatures": [],
+                    "AnimatedCSSFeatures": []
+                },
+                "_testID": "250728_YiDcGY_72P",
+                "_run": 1,
+                "_step": 1,
+                "_TTFB": 0,
+                "_render": 0,
+                "_domTime": 0,
+                "_aft": 0,
+                "_titleTime": 105,
+                "_domLoading": 0,
+                "_server_rtt": 0,
+                "_firstPaint": 0,
+                "_error": "404 Navigation error",
+                "_edge-processed": true,
+                "_longTasks": [],
+                "_utilization": {
+                    "cpu": {
+                        "data": {
+                            "0": 0,
+                            "102": 35,
+                            "203": 36.799999999999997,
+                            "305": 47.600000000000001
+                        },
+                        "max": 100,
+                        "count": 4
+                    },
+                    "bw": {
+                        "data": {
+                            "0": 0,
+                            "102": 0,
+                            "203": 311832,
+                            "305": 485170
+                        },
+                        "max": 485170,
+                        "count": 4
+                    }
+                },
+                "_consoleLog": [
+                    {
+                        "source": "network",
+                        "level": "error",
+                        "text": "Failed to load resource: the server responded with a status of 404 ()",
+                        "timestamp": 1753714076415.6641,
+                        "url": "https://recyclomart.vercel.app/",
+                        "networkRequestId": "DCBDD85D52C6832DFF87184E9E86451C"
+                    },
+                    {
+                        "source": "network",
+                        "level": "error",
+                        "text": "Failed to load resource: the server responded with a status of 404 ()",
+                        "timestamp": 1753714076558.156,
+                        "url": "https://recyclomart.vercel.app/favicon.ico",
+                        "networkRequestId": "812550.2"
+                    }
+                ]
+            },
+            {
+                "startedDateTime": "2025-07-28T14:47:59.881+00:00",
+                "title": "Run 1, Repeat View for https://recyclomart.vercel.app",
+                "id": "page_1_1_1",
+                "testID": "250728_YiDcGY_72P",
+                "pageTimings": {
+                    "onLoad": 319,
+                    "onContentLoad": -1,
+                    "_startRender": 0
+                },
+                "_bwDown": 5000,
+                "_loadTime": 319,
+                "_docTime": 319,
+                "_fullyLoaded": 319,
+                "_bytesOut": 2140,
+                "_bytesOutDoc": 2140,
+                "_bytesIn": 1612,
+                "_bytesInDoc": 1612,
+                "_requests": 1,
+                "_requestsFull": 1,
+                "_requestsDoc": 1,
+                "_responses_200": 0,
+                "_responses_404": 1,
+                "_responses_other": 0,
+                "_result": 404,
+                "_testStartOffset": 0,
+                "_cached": 1,
+                "_optimization_checked": 1,
+                "_main_frame": "8A1BB47D61A8C0CBFA61483A667BCAB1",
+                "_loadEventStart": 319,
+                "_loadEventEnd": 319,
+                "_domContentLoadedEventStart": 319,
+                "_domContentLoadedEventEnd": 319,
+                "_URL": "https://recyclomart.vercel.app",
+                "_connections": 1,
+                "_domInteractive": 319,
+                "_renderBlockingCSS": 0,
+                "_renderBlockingJS": 0,
+                "_score_cache": -1,
+                "_score_cdn": 100,
+                "_score_gzip": -1,
+                "_score_cookies": -1,
+                "_score_keep-alive": -1,
+                "_score_minify": -1,
+                "_score_combine": -1,
+                "_score_compress": -1,
+                "_score_etags": -1,
+                "_score_progressive_jpeg": -1,
+                "_gzip_total": 0,
+                "_gzip_savings": 0,
+                "_minify_total": -1,
+                "_minify_savings": -1,
+                "_image_total": 0,
+                "_image_savings": 0,
+                "_base_page_cdn": "",
+                "_cpuTimes": {
+                    "ParseHTML": 3,
+                    "EventDispatch": 0,
+                    "V8.GC_TIME_TO_SAFEPOINT": 0,
+                    "CommitLoad": 0,
+                    "UpdateLayoutTree": 1,
+                    "Layout": 69,
+                    "PrePaint": 0,
+                    "Paint": 0,
+                    "Layerize": 0,
+                    "MarkDOMContent": 0,
+                    "MarkLoad": 0,
+                    "Idle": 246
+                },
+                "_cpuTimesDoc": {
+                    "ParseHTML": 3,
+                    "EventDispatch": 0,
+                    "V8.GC_TIME_TO_SAFEPOINT": 0,
+                    "CommitLoad": 0,
+                    "UpdateLayoutTree": 1,
+                    "Layout": 69,
+                    "PrePaint": 0,
+                    "Paint": 0,
+                    "Layerize": 0,
+                    "MarkDOMContent": 0,
+                    "MarkLoad": 0,
+                    "Idle": 246
+                },
+                "_cpu.ParseHTML": 3,
+                "_cpu.EventDispatch": 0,
+                "_cpu.V8.GC_TIME_TO_SAFEPOINT": 0,
+                "_cpu.CommitLoad": 0,
+                "_cpu.UpdateLayoutTree": 1,
+                "_cpu.Layout": 69,
+                "_cpu.PrePaint": 0,
+                "_cpu.Paint": 0,
+                "_cpu.Layerize": 0,
+                "_cpu.MarkDOMContent": 0,
+                "_cpu.MarkLoad": 0,
+                "_cpu.Idle": 246,
+                "_v8Stats": {
+                    "main_thread": [],
+                    "background": []
+                },
+                "_tester": "ip-172-31-21-152-10.10.1.142",
+                "_start_epoch": 1753714077.9476743,
+                "_osVersion": "Linux 6.8.0-1032-aws",
+                "_os_version": "Linux 6.8.0-1032-aws",
+                "_osPlatform": "x86_64 x86_64",
+                "_date": 1753714079.8813317,
+                "_browserVersion": "136.0.0.0",
+                "_browser_version": "136.0.0.0",
+                "_fullyLoadedCPUms": 340,
+                "_fullyLoadedCPUpct": 30.90909090964713,
+                "_audit_issues": [
+                    {
+                        "code": "QuirksModeIssue",
+                        "details": {
+                            "quirksModeIssueDetails": {
+                                "isLimitedQuirksMode": false,
+                                "documentNodeId": 2,
+                                "url": "http://127.0.0.1:8888/orange.html",
+                                "frameId": "8A1BB47D61A8C0CBFA61483A667BCAB1",
+                                "loaderId": "455D7B4FFF62167FC9164FAE0D63BDF8"
+                            }
+                        }
+                    }
+                ],
+                "_execution_contexts": [
+                    {
+                        "id": 2,
+                        "origin": "http://127.0.0.1:8888",
+                        "name": ""
+                    },
+                    {
+                        "id": 1,
+                        "origin": "https://recyclomart.vercel.app",
+                        "name": ""
+                    }
+                ],
+                "_origin_dns": {
+                    "cname": [],
+                    "ns": [],
+                    "mx": [],
+                    "txt": [],
+                    "soa": [],
+                    "https": [],
+                    "svcb": []
+                },
+                "_detected": {
+                    "PaaS": "Vercel",
+                    "Security": "HSTS"
+                },
+                "_detected_apps": {
+                    "Vercel": "",
+                    "HSTS": ""
+                },
+                "_detected_technologies": {
+                    "Vercel": {
+                        "name": "Vercel",
+                        "description": "Vercel is a cloud platform for static frontends and serverless functions.",
+                        "slug": "vercel",
+                        "categories": [
+                            {
+                                "id": 62,
+                                "slug": "paas",
+                                "groups": [
+                                    7
+                                ],
+                                "name": "PaaS",
+                                "priority": 8
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "vercel.svg",
+                        "website": "https://vercel.com",
+                        "pricing": [
+                            "freemium",
+                            "low",
+                            "recurring",
+                            "poa"
+                        ],
+                        "cpe": null
+                    },
+                    "HSTS": {
+                        "name": "HSTS",
+                        "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+                        "slug": "hsts",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "slug": "security",
+                                "groups": [
+                                    11
+                                ],
+                                "name": "Security",
+                                "priority": 9
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "default.svg",
+                        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+                        "pricing": [],
+                        "cpe": null
+                    }
+                },
+                "_detected_raw": [
+                    {
+                        "name": "Vercel",
+                        "description": "Vercel is a cloud platform for static frontends and serverless functions.",
+                        "slug": "vercel",
+                        "categories": [
+                            {
+                                "id": 62,
+                                "slug": "paas",
+                                "groups": [
+                                    7
+                                ],
+                                "name": "PaaS",
+                                "priority": 8
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "vercel.svg",
+                        "website": "https://vercel.com",
+                        "pricing": [
+                            "freemium",
+                            "low",
+                            "recurring",
+                            "poa"
+                        ],
+                        "cpe": null
+                    },
+                    {
+                        "name": "HSTS",
+                        "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+                        "slug": "hsts",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "slug": "security",
+                                "groups": [
+                                    11
+                                ],
+                                "name": "Security",
+                                "priority": 9
+                            }
+                        ],
+                        "confidence": 100,
+                        "version": "",
+                        "icon": "default.svg",
+                        "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+                        "pricing": [],
+                        "cpe": null
+                    }
+                ],
+                "_axe": {
+                    "testEngine": "4.10.2",
+                    "violations": [],
+                    "passes": [
+                        {
+                            "id": "aria-hidden-body",
+                            "impact": null,
+                            "tags": [
+                                "cat.aria",
+                                "wcag2a",
+                                "wcag131",
+                                "wcag412",
+                                "EN-301-549",
+                                "EN-9.1.3.1",
+                                "EN-9.4.1.2"
+                            ],
+                            "description": "Ensure aria-hidden=\"true\" is not present on the document body.",
+                            "help": "aria-hidden=\"true\" must not be present on the document body",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "aria-hidden-body",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "critical",
+                                            "message": "No aria-hidden attribute is present on document body"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<body>",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bypass",
+                            "impact": null,
+                            "tags": [
+                                "cat.keyboard",
+                                "wcag2a",
+                                "wcag241",
+                                "section508",
+                                "section508.22.o",
+                                "TTv5",
+                                "TT9.a",
+                                "EN-301-549",
+                                "EN-9.2.4.1"
+                            ],
+                            "description": "Ensure each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+                            "help": "Page must have means to bypass repeated blocks",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/bypass?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "landmark",
+                                            "data": null,
+                                            "relatedNodes": [
+                                                {
+                                                    "html": "<main>",
+                                                    "target": [
+                                                        "main"
+                                                    ]
+                                                }
+                                            ],
+                                            "impact": "serious",
+                                            "message": "Page has a landmark region"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "color-contrast",
+                            "impact": null,
+                            "tags": [
+                                "cat.color",
+                                "wcag2aa",
+                                "wcag143",
+                                "TTv5",
+                                "TT13.c",
+                                "EN-301-549",
+                                "EN-9.1.4.3",
+                                "ACT"
+                            ],
+                            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+                            "help": "Elements must meet minimum color contrast ratio thresholds",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"error-code\"><strong>404</strong>: NOT_FOUND</span>",
+                                    "target": [
+                                        ".error-code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "bold",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<strong>404</strong>",
+                                    "target": [
+                                        "strong"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#333333",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 12.630000000000001,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 12.63"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"devinfo-line\">Code: <code>DEPLOYMENT_NOT_FOUND</code></span>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "11.0pt (14.72px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<code>DEPLOYMENT_NOT_FOUND</code>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(2) > code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#333333",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 12.630000000000001,
+                                                "fontSize": "12.0pt (16px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 12.63"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<span class=\"devinfo-line\">ID: <code>kix1::p6h85-1753714080088-12da71d3f497</code></span>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#000000",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 21,
+                                                "fontSize": "11.0pt (14.72px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 21"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<code>kix1::p6h85-1753714080088-12da71d3f497</code>",
+                                    "target": [
+                                        ".devinfo-line:nth-child(3) > code"
+                                    ]
+                                },
+                                {
+                                    "any": [
+                                        {
+                                            "id": "color-contrast",
+                                            "data": {
+                                                "fgColor": "#0070f3",
+                                                "bgColor": "#ffffff",
+                                                "contrastRatio": 4.5499999999999998,
+                                                "fontSize": "10.5pt (14px)",
+                                                "fontWeight": "normal",
+                                                "expectedContrastRatio": "4.5:1"
+                                            },
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has sufficient color contrast of 4.55"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<div class=\"note\">This deployment cannot be found. For more information and troubleshooting, see our documentation.</div>",
+                                    "target": [
+                                        ".note"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "document-title",
+                            "impact": null,
+                            "tags": [
+                                "cat.text-alternatives",
+                                "wcag2a",
+                                "wcag242",
+                                "TTv5",
+                                "TT12.a",
+                                "EN-301-549",
+                                "EN-9.2.4.2",
+                                "ACT"
+                            ],
+                            "description": "Ensure each HTML document contains a non-empty <title> element",
+                            "help": "Documents must have <title> element to aid in navigation",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "doc-has-title",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Document has a non-empty <title> element"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "html-has-lang",
+                            "impact": null,
+                            "tags": [
+                                "cat.language",
+                                "wcag2a",
+                                "wcag311",
+                                "TTv5",
+                                "TT11.a",
+                                "EN-301-549",
+                                "EN-9.3.1.1",
+                                "ACT"
+                            ],
+                            "description": "Ensure every HTML document has a lang attribute",
+                            "help": "<html> element must have a lang attribute",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "has-lang",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "The <html> element has a lang attribute"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "html-lang-valid",
+                            "impact": null,
+                            "tags": [
+                                "cat.language",
+                                "wcag2a",
+                                "wcag311",
+                                "TTv5",
+                                "TT11.a",
+                                "EN-301-549",
+                                "EN-9.3.1.1",
+                                "ACT"
+                            ],
+                            "description": "Ensure the lang attribute of the <html> element has a valid value",
+                            "help": "<html> element must have a valid value for the lang attribute",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [],
+                                    "all": [],
+                                    "none": [
+                                        {
+                                            "id": "valid-lang",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Value of lang attribute is included in the list of valid languages"
+                                        }
+                                    ],
+                                    "impact": null,
+                                    "html": "<html lang=\"en\">",
+                                    "target": [
+                                        "html"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "link-name",
+                            "impact": null,
+                            "tags": [
+                                "cat.name-role-value",
+                                "wcag2a",
+                                "wcag244",
+                                "wcag412",
+                                "section508",
+                                "section508.22.a",
+                                "TTv5",
+                                "TT6.a",
+                                "EN-301-549",
+                                "EN-9.2.4.4",
+                                "EN-9.4.1.2",
+                                "ACT"
+                            ],
+                            "description": "Ensure links have discernible text",
+                            "help": "Links must have discernible text",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "has-visible-text",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element has text that is visible to screen readers"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [
+                                        {
+                                            "id": "focusable-no-name",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "serious",
+                                            "message": "Element is not in tab order or has accessible text"
+                                        }
+                                    ],
+                                    "impact": null,
+                                    "html": "<a href=\"https://vercel.com/docs/errors/platform-error-codes#deployment_not_found\" class=\"owner-error\"><div class=\"note\">This deployment cannot be found. For more information and troubleshooting, see our documentation.</div></a>",
+                                    "target": [
+                                        "a"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "meta-viewport",
+                            "impact": null,
+                            "tags": [
+                                "cat.sensory-and-visual-cues",
+                                "wcag2aa",
+                                "wcag144",
+                                "EN-301-549",
+                                "EN-9.1.4.4",
+                                "ACT"
+                            ],
+                            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+                            "help": "Zooming and scaling must not be disabled",
+                            "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport?application=axeAPI",
+                            "nodes": [
+                                {
+                                    "any": [
+                                        {
+                                            "id": "meta-viewport",
+                                            "data": null,
+                                            "relatedNodes": [],
+                                            "impact": "critical",
+                                            "message": "<meta> tag does not disable zooming on mobile devices"
+                                        }
+                                    ],
+                                    "all": [],
+                                    "none": [],
+                                    "impact": null,
+                                    "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+                                    "target": [
+                                        "meta[name=\"viewport\"]"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "incomplete": []
+                },
+                "_base_page_ip_ptr": "",
+                "_base_page_cname": "",
+                "_base_page_dns_server": "",
+                "_browser_name": "Chrome",
+                "_eventName": "Step_1",
+                "_test_run_time_ms": 1533,
+                "_testUrl": "https://recyclomart.vercel.app",
+                "_custom": [
+                    "Colordepth",
+                    "Dpi",
+                    "Images",
+                    "Resolution",
+                    "fonts",
+                    "generated-content-percent",
+                    "generated-content-size",
+                    "imgs-in-viewport",
+                    "imgs-no-alt",
+                    "imgs-out-viewport",
+                    "jsLibsVulns",
+                    "meta-viewport",
+                    "possibly-render-blocking-reqs",
+                    "rendered-html",
+                    "securityHeaders"
+                ],
+                "_Colordepth": null,
+                "_Dpi": null,
+                "_Images": null,
+                "_Resolution": null,
+                "_fonts": null,
+                "_generated-content-percent": null,
+                "_generated-content-size": null,
+                "_imgs-in-viewport": null,
+                "_imgs-no-alt": null,
+                "_imgs-out-viewport": null,
+                "_jsLibsVulns": null,
+                "_meta-viewport": null,
+                "_possibly-render-blocking-reqs": null,
+                "_rendered-html": null,
+                "_securityHeaders": null,
+                "_interactivePeriods": [
+                    [
+                        0,
+                        245
+                    ],
+                    [
+                        315,
+                        320
+                    ]
+                ],
+                "_longTasks": [
+                    [
+                        245,
+                        315
+                    ]
+                ],
+                "_lastVisualChange": 0,
+                "_visualComplete85": 0,
+                "_visualComplete90": 0,
+                "_visualComplete95": 0,
+                "_visualComplete99": 0,
+                "_visualComplete": 0,
+                "_SpeedIndex": 0,
+                "_chromeUserTiming": [
+                    {
+                        "name": "navigationStart",
+                        "time": 28
+                    },
+                    {
+                        "name": "fetchStart",
+                        "time": 36
+                    },
+                    {
+                        "name": "navigationStart",
+                        "time": 61
+                    },
+                    {
+                        "name": "domLoading",
+                        "time": 61
+                    },
+                    {
+                        "name": "responseEnd",
+                        "time": 61
+                    },
+                    {
+                        "name": "domInteractive",
+                        "time": 62
+                    },
+                    {
+                        "name": "domContentLoadedEventStart",
+                        "time": 62
+                    },
+                    {
+                        "name": "domContentLoadedEventEnd",
+                        "time": 62
+                    },
+                    {
+                        "name": "domComplete",
+                        "time": 62
+                    },
+                    {
+                        "name": "responseEnd",
+                        "time": 221
+                    },
+                    {
+                        "name": "unloadEventStart",
+                        "time": 231
+                    },
+                    {
+                        "name": "unloadEventEnd",
+                        "time": 231
+                    },
+                    {
+                        "name": "markAsMainFrame",
+                        "time": 232
+                    },
+                    {
+                        "name": "commitNavigationEnd",
+                        "time": 232
+                    },
+                    {
+                        "name": "domLoading",
+                        "time": 233
+                    },
+                    {
+                        "name": "domInteractive",
+                        "time": 319
+                    },
+                    {
+                        "name": "domContentLoadedEventStart",
+                        "time": 319
+                    },
+                    {
+                        "name": "domContentLoadedEventEnd",
+                        "time": 319
+                    },
+                    {
+                        "name": "domComplete",
+                        "time": 319
+                    },
+                    {
+                        "name": "loadEventStart",
+                        "time": 319
+                    },
+                    {
+                        "name": "loadEventEnd",
+                        "time": 319
+                    },
+                    {
+                        "name": "TotalLayoutShift",
+                        "value": 0
+                    },
+                    {
+                        "name": "CumulativeLayoutShift",
+                        "value": 0
+                    }
+                ],
+                "_chromeUserTiming.navigationStart": 61,
+                "_chromeUserTiming.fetchStart": 37,
+                "_chromeUserTiming.domLoading": 233,
+                "_chromeUserTiming.responseEnd": 222,
+                "_chromeUserTiming.domInteractive": 319,
+                "_chromeUserTiming.domContentLoadedEventStart": 319,
+                "_chromeUserTiming.domContentLoadedEventEnd": 319,
+                "_chromeUserTiming.domComplete": 319,
+                "_chromeUserTiming.unloadEventStart": 231,
+                "_chromeUserTiming.unloadEventEnd": 231,
+                "_chromeUserTiming.markAsMainFrame": 232,
+                "_chromeUserTiming.commitNavigationEnd": 233,
+                "_chromeUserTiming.loadEventStart": 319,
+                "_chromeUserTiming.loadEventEnd": 319,
+                "_chromeUserTiming.TotalLayoutShift": 0,
+                "_chromeUserTiming.CumulativeLayoutShift": 0,
+                "_blinkFeatureFirstUsed": {
+                    "Features": {
+                        "5285": {
+                            "name": "V8Window_Location_AttributeSetter",
+                            "firstUsed": 28.309000000000001
+                        },
+                        "5284": {
+                            "name": "V8Window_Location_AttributeGetter",
+                            "firstUsed": 28.312999999999999
+                        },
+                        "1441": {
+                            "name": "SecureContextCheckPassed",
+                            "firstUsed": 234.697
+                        },
+                        "1910": {
+                            "name": "CrossOriginMainFrameNulledNameAccessed",
+                            "firstUsed": 234.709
+                        },
+                        "2627": {
+                            "name": "PageLifeCycleFreeze",
+                            "firstUsed": 237.43700000000001
+                        },
+                        "2188": {
+                            "name": "PerformanceObserverForWindow",
+                            "firstUsed": 240.488
+                        },
+                        "2927": {
+                            "name": "LargestContentfulPaintExplicitlyRequested",
+                            "firstUsed": 240.517
+                        },
+                        "3004": {
+                            "name": "PerformanceObserverBufferedFlag",
+                            "firstUsed": 240.52199999999999
+                        },
+                        "2782": {
+                            "name": "LayoutShiftExplicitlyRequested",
+                            "firstUsed": 240.53299999999999
+                        },
+                        "2203": {
+                            "name": "HasIDClassTagAttribute",
+                            "firstUsed": 244.66300000000001
+                        },
+                        "924": {
+                            "name": "CSSValuePrefixedFillAvailable",
+                            "firstUsed": 244.684
+                        },
+                        "2204": {
+                            "name": "HasBeforeOrAfterPseudoElement",
+                            "firstUsed": 244.69300000000001
+                        },
+                        "973": {
+                            "name": "CSSAtRuleMedia",
+                            "firstUsed": 244.86099999999999
+                        },
+                        "587": {
+                            "name": "LangAttribute",
+                            "firstUsed": 245.483
+                        },
+                        "588": {
+                            "name": "LangAttributeOnHTML",
+                            "firstUsed": 245.489
+                        },
+                        "1692": {
+                            "name": "CSSFlexibleBox",
+                            "firstUsed": 245.78200000000001
+                        }
+                    },
+                    "CSSFeatures": {
+                        "7": {
+                            "name": "CSSPropertyFontSize",
+                            "firstUsed": 244.67500000000001
+                        },
+                        "69": {
+                            "name": "CSSPropertyBoxSizing",
+                            "firstUsed": 244.68000000000001
+                        },
+                        "81": {
+                            "name": "CSSPropertyHeight",
+                            "firstUsed": 244.68700000000001
+                        },
+                        "6": {
+                            "name": "CSSPropertyFontFamily",
+                            "firstUsed": 244.709
+                        },
+                        "20": {
+                            "name": "CSSPropertyLineHeight",
+                            "firstUsed": 244.71299999999999
+                        },
+                        "162": {
+                            "name": "CSSPropertyWordBreak",
+                            "firstUsed": 244.71600000000001
+                        },
+                        "13": {
+                            "name": "CSSPropertyFontKerning",
+                            "firstUsed": 244.71899999999999
+                        },
+                        "9": {
+                            "name": "CSSPropertyFontVariant",
+                            "firstUsed": 244.72399999999999
+                        },
+                        "14": {
+                            "name": "CSSPropertyWebkitFontSmoothing",
+                            "firstUsed": 244.727
+                        },
+                        "11": {
+                            "name": "CSSPropertyTextRendering",
+                            "firstUsed": 244.73599999999999
+                        },
+                        "534": {
+                            "name": "CSSPropertyHyphens",
+                            "firstUsed": 244.738
+                        },
+                        "94": {
+                            "name": "CSSPropertyMaxHeight",
+                            "firstUsed": 244.74299999999999
+                        },
+                        "89": {
+                            "name": "CSSPropertyMargin",
+                            "firstUsed": 244.74700000000001
+                        },
+                        "21": {
+                            "name": "CSSPropertyBackground",
+                            "firstUsed": 244.756
+                        },
+                        "77": {
+                            "name": "CSSPropertyCursor",
+                            "firstUsed": 244.76300000000001
+                        },
+                        "2": {
+                            "name": "CSSPropertyColor",
+                            "firstUsed": 244.76599999999999
+                        },
+                        "129": {
+                            "name": "CSSPropertyTextDecoration",
+                            "firstUsed": 244.77099999999999
+                        },
+                        "150": {
+                            "name": "CSSPropertyTransition",
+                            "firstUsed": 244.78
+                        },
+                        "35": {
+                            "name": "CSSPropertyBorderBottom",
+                            "firstUsed": 244.785
+                        },
+                        "109": {
+                            "name": "CSSPropertyPadding",
+                            "firstUsed": 244.792
+                        },
+                        "91": {
+                            "name": "CSSPropertyMarginLeft",
+                            "firstUsed": 244.79499999999999
+                        },
+                        "88": {
+                            "name": "CSSPropertyListStyleType",
+                            "firstUsed": 244.798
+                        },
+                        "90": {
+                            "name": "CSSPropertyMarginBottom",
+                            "firstUsed": 244.80199999999999
+                        },
+                        "74": {
+                            "name": "CSSPropertyContent",
+                            "firstUsed": 244.809
+                        },
+                        "4": {
+                            "name": "CSSPropertyDisplay",
+                            "firstUsed": 244.81399999999999
+                        },
+                        "119": {
+                            "name": "CSSPropertyPosition",
+                            "firstUsed": 244.81700000000001
+                        },
+                        "240": {
+                            "name": "CSSPropertyJustifyContent",
+                            "firstUsed": 244.83500000000001
+                        },
+                        "235": {
+                            "name": "CSSPropertyFlexDirection",
+                            "firstUsed": 244.839
+                        },
+                        "96": {
+                            "name": "CSSPropertyMinHeight",
+                            "firstUsed": 244.84100000000001
+                        },
+                        "95": {
+                            "name": "CSSPropertyMaxWidth",
+                            "firstUsed": 244.845
+                        },
+                        "111": {
+                            "name": "CSSPropertyPaddingLeft",
+                            "firstUsed": 244.851
+                        },
+                        "49": {
+                            "name": "CSSPropertyBorderLeft",
+                            "firstUsed": 244.85599999999999
+                        },
+                        "34": {
+                            "name": "CSSPropertyBorder",
+                            "firstUsed": 244.875
+                        },
+                        "53": {
+                            "name": "CSSPropertyBorderRadius",
+                            "firstUsed": 244.87899999999999
+                        },
+                        "10": {
+                            "name": "CSSPropertyFontWeight",
+                            "firstUsed": 244.892
+                        },
+                        "231": {
+                            "name": "CSSPropertyAlignItems",
+                            "firstUsed": 244.89699999999999
+                        },
+                        "54": {
+                            "name": "CSSPropertyBorderRight",
+                            "firstUsed": 244.916
+                        },
+                        "92": {
+                            "name": "CSSPropertyMarginRight",
+                            "firstUsed": 244.91999999999999
+                        },
+                        "93": {
+                            "name": "CSSPropertyMarginTop",
+                            "firstUsed": 244.922
+                        },
+                        "60": {
+                            "name": "CSSPropertyBorderTop",
+                            "firstUsed": 244.94499999999999
+                        },
+                        "36": {
+                            "name": "CSSPropertyBorderBottomColor",
+                            "firstUsed": 244.952
+                        }
+                    },
+                    "AnimatedCSSFeatures": []
+                },
+                "_testID": "250728_YiDcGY_72P",
+                "_run": 1,
+                "_step": 1,
+                "_TTFB": 0,
+                "_render": 0,
+                "_domTime": 0,
+                "_aft": 0,
+                "_titleTime": 62,
+                "_domLoading": 0,
+                "_server_rtt": 0,
+                "_firstPaint": 0,
+                "_error": "404 Navigation error",
+                "_edge-processed": true,
+                "_utilization": {
+                    "cpu": {
+                        "data": {
+                            "0": 0,
+                            "102": 65,
+                            "203": 15,
+                            "304": 63.200000000000003,
+                            "405": 81
+                        },
+                        "max": 100,
+                        "count": 5
+                    },
+                    "bw": {
+                        "data": {
+                            "0": 0,
+                            "102": 21116,
+                            "203": 579957,
+                            "304": 202548,
+                            "405": 33148
+                        },
+                        "max": 579957,
+                        "count": 5
+                    }
+                },
+                "_consoleLog": [
+                    {
+                        "source": "network",
+                        "level": "error",
+                        "text": "Failed to load resource: the server responded with a status of 404 ()",
+                        "timestamp": 1753714080144.8789,
+                        "url": "https://recyclomart.vercel.app/",
+                        "networkRequestId": "97B942A0937F4DEA8E5A567F113AD906"
+                    },
+                    {
+                        "source": "network",
+                        "level": "error",
+                        "text": "Failed to load resource: the server responded with a status of 404 ()",
+                        "timestamp": 1753714080279.6819,
+                        "url": "https://recyclomart.vercel.app/favicon.ico",
+                        "networkRequestId": "812817.2"
+                    }
+                ]
+            }
+        ],
+        "entries": [
+            {
+                "pageref": "page_1_0_1",
+                "startedDateTime": "2025-07-28T14:47:56.258+00:00",
+                "time": 165,
+                "_run": 1,
+                "_cached": 0,
+                "request": {
+                    "method": "GET",
+                    "url": "https://recyclomart.vercel.app/",
+                    "headersSize": 682,
+                    "bodySize": -1,
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br, zstd"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.9"
+                        },
+                        {
+                            "name": "priority",
+                            "value": "u=0, i"
+                        },
+                        {
+                            "name": "sec-ch-ua",
+                            "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\""
+                        },
+                        {
+                            "name": "sec-ch-ua-mobile",
+                            "value": "?0"
+                        },
+                        {
+                            "name": "sec-ch-ua-platform",
+                            "value": "\"Unknown\""
+                        },
+                        {
+                            "name": "sec-fetch-dest",
+                            "value": "document"
+                        },
+                        {
+                            "name": "sec-fetch-mode",
+                            "value": "navigate"
+                        },
+                        {
+                            "name": "sec-fetch-site",
+                            "value": "cross-site"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 PTST/25.05"
+                        }
+                    ],
+                    "httpVersion": "HTTP/2",
+                    "queryString": []
+                },
+                "response": {
+                    "status": 404,
+                    "statusText": "",
+                    "headersSize": 344,
+                    "bodySize": 1611,
+                    "headers": [
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=0, must-revalidate"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "br"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Mon, 28 Jul 2025 14:47:56 GMT"
+                        },
+                        {
+                            "name": "server",
+                            "value": "Vercel"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=63072000; includeSubDomains; preload"
+                        },
+                        {
+                            "name": "x-vercel-error",
+                            "value": "DEPLOYMENT_NOT_FOUND"
+                        },
+                        {
+                            "name": "x-vercel-id",
+                            "value": "kix1::kfcqz-1753714076384-63f58d7d3288"
+                        }
+                    ],
+                    "httpVersion": "HTTP/2",
+                    "redirectURL": "",
+                    "content": {
+                        "size": 1611,
+                        "mimeType": "text/html"
+                    },
+                    "cookies": []
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": -1,
+                    "dns": 33,
+                    "connect": 87,
+                    "ssl": 57,
+                    "send": 0,
+                    "wait": 42,
+                    "receive": 3
+                },
+                "_type": 3,
+                "_id": "DCBDD85D52C6832DFF87184E9E86451C",
+                "_request_id": "DCBDD85D52C6832DFF87184E9E86451C",
+                "_ip_addr": "216.198.79.131",
+                "_full_url": "https://recyclomart.vercel.app/",
+                "_is_secure": 1,
+                "_method": "GET",
+                "_host": "recyclomart.vercel.app",
+                "_url": "/",
+                "_raw_id": "DCBDD85D52C6832DFF87184E9E86451C",
+                "_frame_id": "2A4533F17E387B7CC187E2FCA05BD4AE",
+                "_documentURL": "https://recyclomart.vercel.app/",
+                "_responseCode": 404,
+                "_request_type": "Document",
+                "_load_ms": 45,
+                "_ttfb_ms": 42,
+                "_load_start": 121,
+                "_load_start_float": 121.00009900000001,
+                "_bytesIn": 1611,
+                "_objectSize": 1611,
+                "_objectSizeUncompressed": 3804,
+                "_chunks": [
+                    {
+                        "ts": 166,
+                        "bytes": 1611,
+                        "inflated": 3804
+                    }
+                ],
+                "_expires": "",
+                "_cacheControl": "public, max-age=0, must-revalidate",
+                "_contentType": "text/html",
+                "_contentEncoding": "br",
+                "_socket": 106,
+                "_protocol": "HTTP/2",
+                "_dns_start": 1,
+                "_dns_end": 34,
+                "_connect_start": 34,
+                "_connect_end": 64,
+                "_ssl_start": 64,
+                "_ssl_end": 121,
+                "_securityDetails": {
+                    "protocol": "TLS 1.3",
+                    "keyExchange": "",
+                    "keyExchangeGroup": "X25519",
+                    "cipher": "AES_128_GCM",
+                    "certificateId": 0,
+                    "subjectName": "*.vercel.app",
+                    "sanList": [
+                        "*.vercel.app",
+                        "vercel.app"
+                    ],
+                    "issuer": "R11",
+                    "validFrom": 1750741052,
+                    "validTo": 1758517051,
+                    "signedCertificateTimestampList": [
+                        {
+                            "status": "Verified",
+                            "origin": "Embedded in certificate",
+                            "logDescription": "DigiCert 'Sphinx2025h2' Log",
+                            "logId": "A442C506496061548F0FD4EA9CFB7A2D26454D87A97F2FDF4559F6274F3A8454",
+                            "timestamp": 1750744564364,
+                            "hashAlgorithm": "SHA-256",
+                            "signatureAlgorithm": "ECDSA",
+                            "signatureData": "3046022100D7A78B0EC9C782BF31537E8018F2CFD99CF5869AF882EF8F9705D883C82A1FC6022100CEB9CA23B11872B7CE5BE6729F0D5FB43961027C82A5C660FBAD1DBEDAC409DD"
+                        },
+                        {
+                            "status": "Verified",
+                            "origin": "Embedded in certificate",
+                            "logDescription": "Google 'Argon2025h2' log",
+                            "logId": "12F14E34BD53724C840619C38F3F7A13F8E7B56287889C6D300584EBE586263A",
+                            "timestamp": 1750744566154,
+                            "hashAlgorithm": "SHA-256",
+                            "signatureAlgorithm": "ECDSA",
+                            "signatureData": "3045022100D48ACD834976255C3FE3C417DD0C18EEE8785F071DB7856EF2390204EB743DCF0220353E68CA65AC6EA1496698E1D9DE48D4ED44A6B6456D7674BC021AD4D22CA7B3"
+                        }
+                    ],
+                    "certificateTransparencyCompliance": "unknown",
+                    "serverSignatureAlgorithm": 2052,
+                    "encryptedClientHello": false
+                },
+                "_initiator": "",
+                "_initiator_line": "",
+                "_initiator_column": "",
+                "_initiator_type": "script",
+                "_priority": "Highest",
+                "_initial_priority": "Highest",
+                "_server_rtt": null,
+                "_headers": {
+                    "request": [
+                        ":authority: recyclomart.vercel.app",
+                        ":method: GET",
+                        ":path: /",
+                        ":scheme: https",
+                        "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                        "accept-encoding: gzip, deflate, br, zstd",
+                        "accept-language: en-US,en;q=0.9",
+                        "priority: u=0, i",
+                        "sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\"",
+                        "sec-ch-ua-mobile: ?0",
+                        "sec-ch-ua-platform: \"Unknown\"",
+                        "sec-fetch-dest: document",
+                        "sec-fetch-mode: navigate",
+                        "sec-fetch-site: cross-site",
+                        "upgrade-insecure-requests: 1",
+                        "user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 PTST/25.05"
+                    ],
+                    "response": [
+                        "cache-control: public, max-age=0, must-revalidate",
+                        "content-encoding: br",
+                        "content-type: text/html; charset=utf-8",
+                        "date: Mon, 28 Jul 2025 14:47:56 GMT",
+                        "server: Vercel",
+                        "strict-transport-security: max-age=63072000; includeSubDomains; preload",
+                        "x-vercel-error: DEPLOYMENT_NOT_FOUND",
+                        "x-vercel-id: kix1::kfcqz-1753714076384-63f58d7d3288",
+                        ":status: 404"
+                    ]
+                },
+                "_bytesOut": 2140,
+                "_score_cache": -1,
+                "_score_cdn": 100,
+                "_score_gzip": -1,
+                "_score_cookies": -1,
+                "_score_keep-alive": -1,
+                "_score_minify": -1,
+                "_score_combine": -1,
+                "_score_compress": -1,
+                "_score_etags": -1,
+                "_dns_ms": 33,
+                "_connect_ms": 30,
+                "_ssl_ms": 57,
+                "_gzip_total": null,
+                "_gzip_save": null,
+                "_minify_total": null,
+                "_minify_save": null,
+                "_image_total": null,
+                "_image_save": null,
+                "_cache_time": null,
+                "_cdn_provider": "Vercel",
+                "_server_count": null,
+                "_created": 6,
+                "_socket_group": "https://recyclomart.vercel.app <https://recyclomart.vercel.app same_site>",
+                "_http2_stream_id": 1,
+                "_http2_stream_dependency": 0,
+                "_http2_stream_weight": 256,
+                "_http2_stream_exclusive": 1,
+                "_http2_server_settings": {
+                    "SETTINGS_MAX_FRAME_SIZE": 1048576,
+                    "SETTINGS_MAX_CONCURRENT_STREAMS": 250,
+                    "SETTINGS_MAX_HEADER_LIST_SIZE": 2097472,
+                    "SETTINGS_HEADER_TABLE_SIZE": 4096,
+                    "SETTINGS_INITIAL_WINDOW_SIZE": 1048576,
+                    "SETTINGS_ENABLE_CONNECT_PROTOCOL": 1
+                },
+                "_tls_version": "TLS 1.3",
+                "_tls_resumed": "False",
+                "_tls_next_proto": "h2",
+                "_tls_cipher_suite": 4865,
+                "_early_hint_headers": [
+                    "HTTP/1.1 103",
+                    "server: Vercel",
+                    "x-vercel-id: uFDzdGRCMuKkHiYPkjHFtXungmeshMai"
+                ],
+                "_netlog_id": 99,
+                "_certificates": [
+                    "-----BEGIN CERTIFICATE-----\nMIIFATCCA+mgAwIBAgISBuCRG0iwMGKJPR3G4WE+XjrLMA0GCSqGSIb3DQEBCwUA\nMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD\nEwNSMTEwHhcNMjUwNjI0MDQ1NzMyWhcNMjUwOTIyMDQ1NzMxWjAXMRUwEwYDVQQD\nDAwqLnZlcmNlbC5hcHAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4\n9ahgl9ajBrpRqJwz+DDz5GGkTOuLBoHuxsw7lgjpV3WMPw5qkZjy790d/0zId5k0\n+fPd58weSr4Rgjn4lu5uHAQJixUPsT/iOhwCUNgropgjhK9CJnNSX8vHKj8DhoKm\nvpQKk9AeHqzNZCNyNzCAp0Ro48xo1GpBO1wvkE/TWDIr0OvCvt8hlYEUxf+gt07r\nYpBnoaorDXk3lca8R0jlU+EMSh7prnGVjR0a/WRT7Zhxx6b0f5LbrybnIpMcpYd6\nY59UU0HnaGeVZCeJebIDFDGSc8mj3dNDHeIuAR1A7xLct4li9t89/Uzx7jz5DFHr\nGzjhr8aFYf2vdoSdZxdDAgMBAAGjggIpMIICJTAOBgNVHQ8BAf8EBAMCBaAwHQYD\nVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0O\nBBYEFFK8DudwCz1VxaAdaBoS1Z4dEsH+MB8GA1UdIwQYMBaAFMXPRqTq9MPAemyV\nxC2wXpIvJuO5MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3Ix\nMS5pLmxlbmNyLm9yZy8wIwYDVR0RBBwwGoIMKi52ZXJjZWwuYXBwggp2ZXJjZWwu\nYXBwMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6\nLy9yMTEuYy5sZW5jci5vcmcvNzYuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDx\nAHcApELFBklgYVSPD9TqnPt6LSZFTYepfy/fRVn2J086hFQAAAGXoIICjAAABAMA\nSDBGAiEA16eLDsnHgr8xU36AGPLP2Zz1hpr4gu+PlwXYg8gqH8YCIQDOucojsRhy\nt85b5nKfDV+0OWECfIKlxmD7rR2+2sQJ3QB2ABLxTjS9U3JMhAYZw48/ehP457Vi\nh4icbTAFhOvlhiY6AAABl6CCCYoAAAQDAEcwRQIhANSKzYNJdiVcP+PEF90MGO7o\neF8HHbeFbvI5AgTrdD3PAiA1PmjKZaxuoUlmmOHZ3kjU7USmtkVtdnS8AhrU0iyn\nszANBgkqhkiG9w0BAQsFAAOCAQEAkgMFxnwpgrV3qbnXVqTW89gGq7jgtMebmyi2\nf7GgfC3NhJvDbA17RhPipZPLUaZ2E3pIMLuCtzI0cKcRhk5gHWa4DDUdSE3Q25kj\nBqXit9K3lq3dbQeuqQ3nOdsIBsolIxNslg3XsCPqrnHy9HjdQOovbEhDEULHhzZE\n+dXjHdtjRxlROvN1MgY9mu7OpPb2nw0JKd4T9BFLjYB3MqQkBorF4SWmiC6w4nIn\nB0NYeJjBcAwTMDbTTxtdlpvBYYct2FINOq3w9avoJX9PB4QEbdr53FskGPsagoiO\nP8PhNWCB0XcS4z6vuPqbmZvw/VB94t9Z7radoTHaT444W20AGA==\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIIFBjCCAu6gAwIBAgIRAIp9PhPWLzDvI4a9KQdrNPgwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAw\nWhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDEMMAoGA1UEAxMDUjExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEAuoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJ\nDAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2+97/1i9qLcT9t4x1fJyyXJqC4N0lZxG\nAGQUmfOx2SLZzaiSqhwmej/+71gFewiVgdtxD4774zEJuwm+UE1fj5F2PVqdnoPy\n6cRms+EGZkNIGIBloDcYmpuEMpexsr3E+BUAnSeI++JjF5ZsmydnS8TbKF5pwnnw\nSVzgJFDhxLyhBax7QG0AtMJBP6dYuC/FXJuluwme8f7rsIU5/agK70XEeOtlKsLP\nXzze41xNG/cLJyuqC0J3U095ah2H2QIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIB\nhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUxc9GpOr0w8B6bJXELbBeki8m47kwHwYDVR0jBBgwFoAU\nebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAC\nhhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcG\nA1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcN\nAQELBQADggIBAE7iiV0KAxyQOND1H/lxXPjDj7I3iHpvsCUf7b632IYGjukJhM1y\nv4Hz/MrPU0jtvfZpQtSlET41yBOykh0FX+ou1Nj4ScOt9ZmWnO8m2OG0JAtIIE38\n01S0qcYhyOE2G/93ZCkXufBL713qzXnQv5C/viOykNpKqUgxdKlEC+Hi9i2DcaR1\ne9KUwQUZRhy5j/PEdEglKg3l9dtD4tuTm7kZtB8v32oOjzHTYw+7KdzdZiw/sBtn\nUfhBPORNuay4pJxmY/WrhSMdzFO2q3Gu3MUBcdo27goYKjL9CTF8j/Zz55yctUoV\naneCWs/ajUX+HypkBTA+c8LGDLnWO2NKq0YD/pnARkAnYGPfUDoHR9gVSp/qRx+Z\nWghiDLZsMwhN1zjtSC0uBWiugF3vTNzYIEFfaPG7Ws3jDrAMMYebQ95JQ+HIBD/R\nPBuHRTBpqKlyDnkSHDHYPiNX3adPoPAcgdF3H2/W0rmoswMWgTlLn1Wu0mrks7/q\npdWfS6PJ1jty80r2VKsM/Dj3YIDfbjXKdaFU5C+8bhfJGqU3taKauuz0wHVGT3eo\n6FlWkWYtbt4pgdamlwVeZEW+LM7qZEJEsMNPrfC03APKmZsJgpWCDWOKZvkZcvjV\nuYkQ4omYCTX5ohy+knMjdOmdH9c7SpqEWBDC86fiNex+O0XOMEZSa8DA\n-----END CERTIFICATE-----\n"
+                ],
+                "_server_port": "443",
+                "_load_end": 166,
+                "_ttfb_start": 121,
+                "_ttfb_end": 163,
+                "_download_start": 163,
+                "_download_end": 166,
+                "_download_ms": 3,
+                "_all_start": 1,
+                "_all_end": 166,
+                "_all_ms": 165,
+                "_index": 0,
+                "_number": 1
+            },
+            {
+                "pageref": "page_1_1_1",
+                "startedDateTime": "2025-07-28T14:48:00.006+00:00",
+                "time": 190,
+                "_run": 1,
+                "_cached": 1,
+                "request": {
+                    "method": "GET",
+                    "url": "https://recyclomart.vercel.app/",
+                    "headersSize": 682,
+                    "bodySize": -1,
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br, zstd"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.9"
+                        },
+                        {
+                            "name": "priority",
+                            "value": "u=0, i"
+                        },
+                        {
+                            "name": "sec-ch-ua",
+                            "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\""
+                        },
+                        {
+                            "name": "sec-ch-ua-mobile",
+                            "value": "?0"
+                        },
+                        {
+                            "name": "sec-ch-ua-platform",
+                            "value": "\"Unknown\""
+                        },
+                        {
+                            "name": "sec-fetch-dest",
+                            "value": "document"
+                        },
+                        {
+                            "name": "sec-fetch-mode",
+                            "value": "navigate"
+                        },
+                        {
+                            "name": "sec-fetch-site",
+                            "value": "cross-site"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 PTST/25.05"
+                        }
+                    ],
+                    "httpVersion": "HTTP/2",
+                    "queryString": []
+                },
+                "response": {
+                    "status": 404,
+                    "statusText": "",
+                    "headersSize": 344,
+                    "bodySize": 1612,
+                    "headers": [
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=0, must-revalidate"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "br"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/html; charset=utf-8"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Mon, 28 Jul 2025 14:48:00 GMT"
+                        },
+                        {
+                            "name": "server",
+                            "value": "Vercel"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=63072000; includeSubDomains; preload"
+                        },
+                        {
+                            "name": "x-vercel-error",
+                            "value": "DEPLOYMENT_NOT_FOUND"
+                        },
+                        {
+                            "name": "x-vercel-id",
+                            "value": "kix1::p6h85-1753714080088-12da71d3f497"
+                        }
+                    ],
+                    "httpVersion": "HTTP/2",
+                    "redirectURL": "",
+                    "content": {
+                        "size": 1612,
+                        "mimeType": "text/html"
+                    },
+                    "cookies": []
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": -1,
+                    "dns": 37,
+                    "connect": 87,
+                    "ssl": 56,
+                    "send": 0,
+                    "wait": 41,
+                    "receive": 25
+                },
+                "_type": 3,
+                "_id": "97B942A0937F4DEA8E5A567F113AD906",
+                "_request_id": "97B942A0937F4DEA8E5A567F113AD906",
+                "_ip_addr": "64.29.17.131",
+                "_full_url": "https://recyclomart.vercel.app/",
+                "_is_secure": 1,
+                "_method": "GET",
+                "_host": "recyclomart.vercel.app",
+                "_url": "/",
+                "_raw_id": "97B942A0937F4DEA8E5A567F113AD906",
+                "_frame_id": "8A1BB47D61A8C0CBFA61483A667BCAB1",
+                "_documentURL": "https://recyclomart.vercel.app/",
+                "_responseCode": 404,
+                "_request_type": "Document",
+                "_load_ms": 66,
+                "_ttfb_ms": 41,
+                "_load_start": 125,
+                "_load_start_float": 125.00006399999999,
+                "_bytesIn": 1612,
+                "_objectSize": 1612,
+                "_objectSizeUncompressed": 3804,
+                "_chunks": [
+                    {
+                        "ts": 191,
+                        "bytes": 1612,
+                        "inflated": 3804
+                    }
+                ],
+                "_expires": "",
+                "_cacheControl": "public, max-age=0, must-revalidate",
+                "_contentType": "text/html",
+                "_contentEncoding": "br",
+                "_socket": 71,
+                "_protocol": "HTTP/2",
+                "_dns_start": 1,
+                "_dns_end": 38,
+                "_connect_start": 38,
+                "_connect_end": 69,
+                "_ssl_start": 69,
+                "_ssl_end": 125,
+                "_securityDetails": {
+                    "protocol": "TLS 1.3",
+                    "keyExchange": "",
+                    "keyExchangeGroup": "X25519",
+                    "cipher": "AES_128_GCM",
+                    "certificateId": 0,
+                    "subjectName": "*.vercel.app",
+                    "sanList": [
+                        "*.vercel.app",
+                        "vercel.app"
+                    ],
+                    "issuer": "R11",
+                    "validFrom": 1750741052,
+                    "validTo": 1758517051,
+                    "signedCertificateTimestampList": [
+                        {
+                            "status": "Verified",
+                            "origin": "Embedded in certificate",
+                            "logDescription": "DigiCert 'Sphinx2025h2' Log",
+                            "logId": "A442C506496061548F0FD4EA9CFB7A2D26454D87A97F2FDF4559F6274F3A8454",
+                            "timestamp": 1750744564364,
+                            "hashAlgorithm": "SHA-256",
+                            "signatureAlgorithm": "ECDSA",
+                            "signatureData": "3046022100D7A78B0EC9C782BF31537E8018F2CFD99CF5869AF882EF8F9705D883C82A1FC6022100CEB9CA23B11872B7CE5BE6729F0D5FB43961027C82A5C660FBAD1DBEDAC409DD"
+                        },
+                        {
+                            "status": "Verified",
+                            "origin": "Embedded in certificate",
+                            "logDescription": "Google 'Argon2025h2' log",
+                            "logId": "12F14E34BD53724C840619C38F3F7A13F8E7B56287889C6D300584EBE586263A",
+                            "timestamp": 1750744566154,
+                            "hashAlgorithm": "SHA-256",
+                            "signatureAlgorithm": "ECDSA",
+                            "signatureData": "3045022100D48ACD834976255C3FE3C417DD0C18EEE8785F071DB7856EF2390204EB743DCF0220353E68CA65AC6EA1496698E1D9DE48D4ED44A6B6456D7674BC021AD4D22CA7B3"
+                        }
+                    ],
+                    "certificateTransparencyCompliance": "unknown",
+                    "serverSignatureAlgorithm": 2052,
+                    "encryptedClientHello": false
+                },
+                "_initiator": "",
+                "_initiator_line": "",
+                "_initiator_column": "",
+                "_initiator_type": "script",
+                "_priority": "Highest",
+                "_initial_priority": "Highest",
+                "_server_rtt": null,
+                "_headers": {
+                    "request": [
+                        ":authority: recyclomart.vercel.app",
+                        ":method: GET",
+                        ":path: /",
+                        ":scheme: https",
+                        "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                        "accept-encoding: gzip, deflate, br, zstd",
+                        "accept-language: en-US,en;q=0.9",
+                        "priority: u=0, i",
+                        "sec-ch-ua: \" Not A;Brand\";v=\"99\", \"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\"",
+                        "sec-ch-ua-mobile: ?0",
+                        "sec-ch-ua-platform: \"Unknown\"",
+                        "sec-fetch-dest: document",
+                        "sec-fetch-mode: navigate",
+                        "sec-fetch-site: cross-site",
+                        "upgrade-insecure-requests: 1",
+                        "user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 PTST/25.05"
+                    ],
+                    "response": [
+                        "cache-control: public, max-age=0, must-revalidate",
+                        "content-encoding: br",
+                        "content-type: text/html; charset=utf-8",
+                        "date: Mon, 28 Jul 2025 14:48:00 GMT",
+                        "server: Vercel",
+                        "strict-transport-security: max-age=63072000; includeSubDomains; preload",
+                        "x-vercel-error: DEPLOYMENT_NOT_FOUND",
+                        "x-vercel-id: kix1::p6h85-1753714080088-12da71d3f497",
+                        ":status: 404"
+                    ]
+                },
+                "_bytesOut": 2140,
+                "_score_cache": -1,
+                "_score_cdn": 100,
+                "_score_gzip": -1,
+                "_score_cookies": -1,
+                "_score_keep-alive": -1,
+                "_score_minify": -1,
+                "_score_combine": -1,
+                "_score_compress": -1,
+                "_score_etags": -1,
+                "_dns_ms": 37,
+                "_connect_ms": 31,
+                "_ssl_ms": 56,
+                "_gzip_total": null,
+                "_gzip_save": null,
+                "_minify_total": null,
+                "_minify_save": null,
+                "_image_total": null,
+                "_image_save": null,
+                "_cache_time": null,
+                "_cdn_provider": "Vercel",
+                "_server_count": null,
+                "_created": 9,
+                "_socket_group": "https://recyclomart.vercel.app <https://recyclomart.vercel.app same_site>",
+                "_http2_stream_id": 1,
+                "_http2_stream_dependency": 0,
+                "_http2_stream_weight": 256,
+                "_http2_stream_exclusive": 1,
+                "_http2_server_settings": {
+                    "SETTINGS_MAX_FRAME_SIZE": 1048576,
+                    "SETTINGS_MAX_CONCURRENT_STREAMS": 250,
+                    "SETTINGS_MAX_HEADER_LIST_SIZE": 2097472,
+                    "SETTINGS_HEADER_TABLE_SIZE": 4096,
+                    "SETTINGS_INITIAL_WINDOW_SIZE": 1048576,
+                    "SETTINGS_ENABLE_CONNECT_PROTOCOL": 1
+                },
+                "_tls_version": "TLS 1.3",
+                "_tls_resumed": "False",
+                "_tls_next_proto": "h2",
+                "_tls_cipher_suite": 4865,
+                "_early_hint_headers": [
+                    "HTTP/1.1 103",
+                    "server: Vercel",
+                    "x-vercel-id: KWVqoToabNkoNUIusXDCsawLRoyajERy"
+                ],
+                "_netlog_id": 64,
+                "_certificates": [
+                    "-----BEGIN CERTIFICATE-----\nMIIFATCCA+mgAwIBAgISBuCRG0iwMGKJPR3G4WE+XjrLMA0GCSqGSIb3DQEBCwUA\nMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD\nEwNSMTEwHhcNMjUwNjI0MDQ1NzMyWhcNMjUwOTIyMDQ1NzMxWjAXMRUwEwYDVQQD\nDAwqLnZlcmNlbC5hcHAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC4\n9ahgl9ajBrpRqJwz+DDz5GGkTOuLBoHuxsw7lgjpV3WMPw5qkZjy790d/0zId5k0\n+fPd58weSr4Rgjn4lu5uHAQJixUPsT/iOhwCUNgropgjhK9CJnNSX8vHKj8DhoKm\nvpQKk9AeHqzNZCNyNzCAp0Ro48xo1GpBO1wvkE/TWDIr0OvCvt8hlYEUxf+gt07r\nYpBnoaorDXk3lca8R0jlU+EMSh7prnGVjR0a/WRT7Zhxx6b0f5LbrybnIpMcpYd6\nY59UU0HnaGeVZCeJebIDFDGSc8mj3dNDHeIuAR1A7xLct4li9t89/Uzx7jz5DFHr\nGzjhr8aFYf2vdoSdZxdDAgMBAAGjggIpMIICJTAOBgNVHQ8BAf8EBAMCBaAwHQYD\nVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0O\nBBYEFFK8DudwCz1VxaAdaBoS1Z4dEsH+MB8GA1UdIwQYMBaAFMXPRqTq9MPAemyV\nxC2wXpIvJuO5MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3Ix\nMS5pLmxlbmNyLm9yZy8wIwYDVR0RBBwwGoIMKi52ZXJjZWwuYXBwggp2ZXJjZWwu\nYXBwMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6\nLy9yMTEuYy5sZW5jci5vcmcvNzYuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDx\nAHcApELFBklgYVSPD9TqnPt6LSZFTYepfy/fRVn2J086hFQAAAGXoIICjAAABAMA\nSDBGAiEA16eLDsnHgr8xU36AGPLP2Zz1hpr4gu+PlwXYg8gqH8YCIQDOucojsRhy\nt85b5nKfDV+0OWECfIKlxmD7rR2+2sQJ3QB2ABLxTjS9U3JMhAYZw48/ehP457Vi\nh4icbTAFhOvlhiY6AAABl6CCCYoAAAQDAEcwRQIhANSKzYNJdiVcP+PEF90MGO7o\neF8HHbeFbvI5AgTrdD3PAiA1PmjKZaxuoUlmmOHZ3kjU7USmtkVtdnS8AhrU0iyn\nszANBgkqhkiG9w0BAQsFAAOCAQEAkgMFxnwpgrV3qbnXVqTW89gGq7jgtMebmyi2\nf7GgfC3NhJvDbA17RhPipZPLUaZ2E3pIMLuCtzI0cKcRhk5gHWa4DDUdSE3Q25kj\nBqXit9K3lq3dbQeuqQ3nOdsIBsolIxNslg3XsCPqrnHy9HjdQOovbEhDEULHhzZE\n+dXjHdtjRxlROvN1MgY9mu7OpPb2nw0JKd4T9BFLjYB3MqQkBorF4SWmiC6w4nIn\nB0NYeJjBcAwTMDbTTxtdlpvBYYct2FINOq3w9avoJX9PB4QEbdr53FskGPsagoiO\nP8PhNWCB0XcS4z6vuPqbmZvw/VB94t9Z7radoTHaT444W20AGA==\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIIFBjCCAu6gAwIBAgIRAIp9PhPWLzDvI4a9KQdrNPgwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAw\nWhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDEMMAoGA1UEAxMDUjExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB\nCgKCAQEAuoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJ\nDAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2+97/1i9qLcT9t4x1fJyyXJqC4N0lZxG\nAGQUmfOx2SLZzaiSqhwmej/+71gFewiVgdtxD4774zEJuwm+UE1fj5F2PVqdnoPy\n6cRms+EGZkNIGIBloDcYmpuEMpexsr3E+BUAnSeI++JjF5ZsmydnS8TbKF5pwnnw\nSVzgJFDhxLyhBax7QG0AtMJBP6dYuC/FXJuluwme8f7rsIU5/agK70XEeOtlKsLP\nXzze41xNG/cLJyuqC0J3U095ah2H2QIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIB\nhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUxc9GpOr0w8B6bJXELbBeki8m47kwHwYDVR0jBBgwFoAU\nebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAC\nhhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcG\nA1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcN\nAQELBQADggIBAE7iiV0KAxyQOND1H/lxXPjDj7I3iHpvsCUf7b632IYGjukJhM1y\nv4Hz/MrPU0jtvfZpQtSlET41yBOykh0FX+ou1Nj4ScOt9ZmWnO8m2OG0JAtIIE38\n01S0qcYhyOE2G/93ZCkXufBL713qzXnQv5C/viOykNpKqUgxdKlEC+Hi9i2DcaR1\ne9KUwQUZRhy5j/PEdEglKg3l9dtD4tuTm7kZtB8v32oOjzHTYw+7KdzdZiw/sBtn\nUfhBPORNuay4pJxmY/WrhSMdzFO2q3Gu3MUBcdo27goYKjL9CTF8j/Zz55yctUoV\naneCWs/ajUX+HypkBTA+c8LGDLnWO2NKq0YD/pnARkAnYGPfUDoHR9gVSp/qRx+Z\nWghiDLZsMwhN1zjtSC0uBWiugF3vTNzYIEFfaPG7Ws3jDrAMMYebQ95JQ+HIBD/R\nPBuHRTBpqKlyDnkSHDHYPiNX3adPoPAcgdF3H2/W0rmoswMWgTlLn1Wu0mrks7/q\npdWfS6PJ1jty80r2VKsM/Dj3YIDfbjXKdaFU5C+8bhfJGqU3taKauuz0wHVGT3eo\n6FlWkWYtbt4pgdamlwVeZEW+LM7qZEJEsMNPrfC03APKmZsJgpWCDWOKZvkZcvjV\nuYkQ4omYCTX5ohy+knMjdOmdH9c7SpqEWBDC86fiNex+O0XOMEZSa8DA\n-----END CERTIFICATE-----\n"
+                ],
+                "_server_port": "443",
+                "_load_end": 191,
+                "_ttfb_start": 125,
+                "_ttfb_end": 166,
+                "_download_start": 166,
+                "_download_end": 191,
+                "_download_ms": 25,
+                "_all_start": 1,
+                "_all_end": 191,
+                "_all_ms": 190,
+                "_index": 0,
+                "_number": 1
+            }
+        ]
+    }
+}
